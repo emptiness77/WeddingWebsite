@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?3u5a5');
+  src:  url('fonts/icomoon.eot?3u5a5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3u5a5') format('truetype'),
+    url('fonts/icomoon.woff?3u5a5') format('woff'),
+    url('fonts/icomoon.svg?3u5a5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qq:before {
+  content: "\e905";
+}
+.icon-help:before {
+  content: "\e906";
+}
+.icon-cake:before {
+  content: "\e907";
+}
+.icon-earth:before {
+  content: "\e909";
+}
+.icon-points:before {
+  content: "\e90a";
+}
+.icon-douban:before {
+  content: "\e90b";
+}
+.icon-be-chosen:before {
+  content: "\e90c";
+}
+.icon-share:before {
+  content: "\e90d";
+}
+.icon-about-us:before {
+  content: "\e90f";
+}
+.icon-wedding-story:before {
+  content: "\e910";
+}
+.icon-wedding-dress:before {
+  content: "\e911";
+}
+.icon-jiantou:before {
+  content: "\e912";
+}
+.icon-rings:before {
+  content: "\e913";
+}
+.icon-jubao:before {
+  content: "\e914";
+}
+.icon-dresses:before {
+  content: "\e915";
+}
+.icon-grades:before {
+  content: "\e916";
+}
+.icon-collect:before {
+  content: "\e917";
+}
+.icon-my-collection:before {
+  content: "\e918";
+}
+.icon-hands-down:before {
+  content: "\e919";
+}
+.icon-after-selling:before {
+  content: "\e91a";
+}
+.icon-freshen:before {
+  content: "\e91b";
+}
+.icon-weibo:before {
+  content: "\e91d";
+}
+.icon-wechat:before {
+  content: "\e91e";
+}
+.icon-flower:before {
+  content: "\e91f";
+}
+.icon-camera:before {
+  content: "\e920";
+}
+.icon-shoes:before {
+  content: "\e921";
+}
+.icon-star:before {
+  content: "\e922";
+}
+.icon-round:before {
+  content: "\e923";
+}
+.icon-transport:before {
+  content: "\e924";
+}
+.icon-pay:before {
+  content: "\e925";
+}
+.icon-shopping-cart:before {
+  content: "\e902";
+}
+.icon-search:before {
+  content: "\e904";
+}
+.icon-sign-up:before {
+  content: "\e900";
+}
+

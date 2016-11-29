@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; list-style:none; text-decoration:none; background:none; font-family:"微软雅黑", "宋体"; font-size:12px; color:#666; border:none;}
+img{width:100%;}
+
+/*--------------header---------------*/
+header>.head_01{ background-color:#f4fafd; overflow:hidden;}
+header>.head_01>.container{ overflow:hidden;}
+.head_01 p{ float:left; line-height:40px; margin:0 20px; color:#888;}
+.head_01 li{ float:right; line-height:40px; margin-right:40px;}
+.head_01 a{ color:#666; vertical-align:middle;}
+.head_01 a:hover{ color:#39c; text-decoration:none;}
+.head_01 span{ font-size:30px; vertical-align:middle; margin-right:10px;}
+.head_01 .icon-my-collection{ font-size:24px;}
+header>.head_02{ height:120px;}
+.head_02>.container>div{ float:left;}
+.head_02>.container>.logoCon{ width:223px; height:80px; margin:20px 0;}
+.head_02>.container>.searchCon{ margin-left:150px;}
+	.searchCon>div{ width:500px; height:42px; margin-top:40px;}
+	.searchCon>div>div{ float:left; width:400px; height:40px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; line-height:40px; border:1px #a0a0a0 solid; color:#b2b2b2;}
+	.searchCon>div>div>span{ margin:0 10px; vertical-align:middle;}
+	.searchCon>div>div>input{ outline:medium; width:350px; line-height:40px; height:40px;/*input在IE里的样式有区别*/}
+	.searchCon>div>input{ float:left; width:60px; height:40px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; font-size:14px; color:#fff; background-color:#75f0ec; margin-left:10px; outline:medium;}
+	.searchCon>div>input:hover{ background-color:#77dede;}
+	.searchCon .icon-search{ font-size:24px;}
+	.searchCon p{ margin-top:10px; color:#999;}
+	.searchCon a{ margin:0 5px; color:#999;}
+	.searchCon a:hover{ color:#39c; text-decoration:none;}
+.head_02>.container>.codeCon{ width:90px; height:90px; float:right; margin-right:30px; margin-top:15px;}
+/*--------------footer---------------*/
+footer{ background-color:#f4fafd; height:400px; overflow:hidden;}
+footer ol.container{ width:1200px; padding:50px; overflow:hidden;}
+footer ol>li{ float:left; margin-left:80px; width:156px;}
+footer ol>li:first-child{ margin-left:0;}
+footer ol div{ font-size:18px; color:#333; border-bottom:1px #ddd solid; padding-bottom:10px;}
+footer span{ vertical-align:middle; margin-right:6px; font-size:20px;}
+footer .icon-transport{ font-size:24px; margin-right:2px;}
+footer .icon-help{ font-size:24px; margin-right:2px;}
+footer ol>li>ul{ margin-left:28px; margin-top:10px;}
+footer ol>li>ul a{ font-size:14px; line-height:22px; color:#666;}
+footer ol>li>ul a:hover{ color:#39c; text-decoration:none;}
+footer>div.container{ text-align:center; font-size:14px; color:#999;}
+footer>div.footer_chengxin{ width:200px; margin:30px auto;}
+footer>div.footer_chengxin>img{ height:35px; width:96px;}
+footer>div.footer_chengxin>img:nth-child(2){ margin-left:8px;}
+
+/*----响应式----*/
+@media all and (max-width: 768px) {
+	.head_01 a{ display:none;}
+	.head_01 p{ margin:0;}
+	.head_01 li{ margin-right:6px;}
+	.head_02 .logoCon{ display:none;}
+	.head_02 .codeCon{ display:none;}
+	.head_02>.container>.searchCon{ width:100%; margin:0 auto;}
+	.searchCon p{ display:none;}
+	.searchCon>div{ width:100%; margin-top:10px;}
+	.searchCon>div>div{ float:left; width:85%; height:40px; line-height:40px;}
+	.searchCon>div>input{ width:10%;}
+	.searchCon>div>div>input{ width:80%;}
+	
+	footer ol.container{ width:100%; padding:40px 0 20px 0;}
+	footer ol>li{ float:left; margin-left:2%; width:22%;}
+	footer ol>li>ul{ display:none;}
+	footer ol>li>div{ border-bottom:none; text-align:center;}
+	footer ol>li:first-child{ margin-left:0;}
+	footer ol>li:last-child{ display:none;}
+}
+@media all and (min-width: 768px) and (max-width: 992px){
+	header>.head_01>.container{ margin:0; width:100%;}
+	.head_01 a{ display:none;}
+	.head_01 p{ margin:0;}
+	.head_01 li{ margin-right:20px;}
+	.head_02{ height:50px;}
+	.searchCon>div{ margin-top:10px;}
+	.head_02 .logoCon{ display:none;}
+	.head_02 .codeCon{ display:none;}
+	.head_02>.container{ width:100%;}
+	.head_02>.container>.searchCon{ width:100%; margin:0 auto;}
+	.searchCon p{ display:none;}
+	.searchCon>div{ width:100%;}
+	.searchCon>div>input{ width:10%;}
+	.searchCon>div>div{ width:88%;}
+	.searchCon>div>div>input{ width:100%;}
+	
+	footer ol.container{ width:684px; margin:0 auto; padding:50px 0;}
+	footer ol>li{ float:left; margin-left:2%; width:156px;}
+	footer ol>li:first-child{ margin-left:0;}
+	footer ol>li:last-child{ display:none;}
+}
+@media all and (min-width: 992px) and (max-width: 1200px){
+	.head_01 li{ margin-right:30px;}
+	.head_02 .codeCon{ display:none;}
+	
+	footer ol.container{ width:940px; margin:0 auto; padding:50px 0;}
+	footer ol>li{ float:left; margin-left:40px; width:156px;}
+	footer ol>li:first-child{ margin-left:0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
